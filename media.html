@@ -63,8 +63,8 @@
                                                   
                                                 </ul>
                                             </li>
-                                    <li  class="active"><a href="./advertisement.html">Advertisement</a></li>
-									<li><a href="./media.html">Media</a></li>
+                                    <li><a href="./advertisement.html">Advertisement</a></li>
+									<li   class="active"><a href="./media.html">Media</a></li>
                                     <li><a href="./contact.html">Contact</a></li>
                                 </ul>
 
@@ -86,7 +86,7 @@
             <div class="row h-100 align-items-center">
                 <div class="col-12">
                     <div class="breadcrumb-content text-center">
-                        <h2 class="page-title">Advertisement</h2>
+                        <h2 class="page-title">Media</h2>
                         
                     </div>
                 </div>
@@ -94,228 +94,97 @@
         </div>
     </section>
     <!-- Breadcrumb Area End -->
-	<iframe src="https://cdn.flipsnack.com/widget/v2/widget.html?hash=z1memjj7t9" width="100%" height="800" seamless="seamless" scrolling="no" frameBorder="0" allowFullScreen allow="autoplay; clipboard-read; clipboard-write"></iframe>
-    
-	<!-- Contact Area Start -->
-    <div class="contact-area section-padding-80-50" style="background-image: url('img/bg-img/img21.jpg');">
-	<center><a class="btn alime-btn btn-2 mt-30 wow fadeInUp" data-wow-delay="500ms" href="img/PJB_FOLDER.pdf" target="_blank" download>Click here to download the pdf</a></center>
-        
+	  
 <!DOCTYPE html>
 <html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-/* color:  red#ec1c24, black#212d31, grey#343a40, white#eee  */
-* {
-  box-sizing: border-box;
+
+html {
+  font-size: 100%;
 }
 
 
 
-.contain {
-  background-color: #eee;
-  max-width: 1170px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 1em;
+h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1.5;  
 }
 
-div.form {
-  background-color: #eee;
-}
-.contact-wrapper {
-  margin: auto 0;
-}
-
-.submit-btn {
-  float: left;
-}
-.reset-btn {
-  float: right;
-}
-
-.form-headline:after {
-  content: "";
-  display: block;
-  width: 10%;
-  padding-top: 10px;
-  border-bottom: 3px solid #ec1c24;
-}
-
-.highlight-text {
-  color: #ec1c24;
-}
-
-.hightlight-contact-info {
-  font-weight: 700;
-  font-size: 22px;
+p {
+  margin: .5rem 0;
+  font-size: 1.25rem;
   line-height: 1.5;
 }
 
-.highlight-text-grey {
-  font-weight: 500;
-}
-
-.email-info {
-    margin-top: 20px;
-}
-
-::-webkit-input-placeholder { /* Chrome */
-  font-family: 'Roboto', sans-serif;
-}
-
-.required-input {
-  color: black;
-}
-@media (min-width: 600px) {
-  .contain {
-    padding: 0;
-  }
-}
-
-h3,
-ul {
+/* First the Grid */
+.gallery-grid {
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-gap: 0.5rem;
+  justify-items: center;
   margin: 0;
-}
-
-h3 {
-  margin-bottom: 1rem;
-}
-
-.form-input:focus,
-textarea:focus{
-  outline: 1.5px solid #ec1c24;
-}
-
-.form-input,
-textarea {
-  width: 100%;
-  border: 1px solid #bdbdbd;
-  border-radius: 5px;
-}
-
-.wrapper > * {
-  padding: 1em;
-}
-@media (min-width: 700px) {
-  .wrapper {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-  }
-  .wrapper > * {
-    padding: 2em 2em;
-  }
-}
-
-ul {
-  list-style: none;
   padding: 0;
 }
 
-.contacts {
-  color: #212d31;
+/* The Picture Frame */
+.gallery-frame {
+  padding: .3rem;
+  font-size: 1.2rem;
+  text-align: center;
+  background-color: #333;
+  color: #d9d9d9;
 }
 
-.form {
-  background: #fff;
+/* The Images */
+.gallery-img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  transition: opacity 0.25s ease-in-out;
 }
 
-form {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 20px;
-}
-form label {
-  display: block;
-}
-form p {
-  margin: 0;
-}
-
-.full-width {
-  grid-column: 1 / 3;
-}
-
-button,
-.submit-btn,
-.form-input,
-textarea {
-  padding: 1em;
-}
-
-button, .submit-btn {
-  background: transparent;
-  border: 1px solid #ec1c24;
-  color: #ec1c24;
-  border-radius: 15px;
-  padding: 5px 20px;
-  text-transform: uppercase;
-}
-button:hover, .submit-btn:hover,
-button:focus , .submit-btn:focus{
-  background: #ec1c24;
-  outline: 0;
-  color: #eee;
-}
-.error {
-  color: #ec1c24;
-}
-
-		
+.gallery-img:hover {
+  opacity: .1;
+}	
 </style>
 <body>
-
-<div class="contain" style="background-image: url('img/bg-img/img21.jpg');">
-
-  <div class="wrapper" style="background-image: url('img/bg-img/img21.jpg');">
-
-    <div class="form" style="background-image: url('img/bg-img/img21.jpg');">
-      <h4>For Advertisement Contact</h4>
-      <h2 class="form-headline">Send us a message</h2>
-      <form id="submit-form" action="https://formsubmit.co/pybdurgautsab@gmail.com" method="POST">
-	  <input type="hidden" name="_next" value="https://tsb-git.github.io/bookvalleynew/AbolTabolCGthank.html">
-        <p>
-          <input id="name" class="form-input" type="text" placeholder="Your Name*">
-          <small class="name-error"></small>
-        </p>
-        <p>
-          <input id="email" class="form-input" type="email" placeholder="Your Email*">
-          <small class="name-error"></small>
-        </p>
-        <p class="full-width">
-          <input id="company-name" class="form-input" type="text" placeholder="Company Name*" required>
-          <small></small>
-        </p>
-        <p class="full-width">
-          <textarea  minlength="20" id="message" cols="30" rows="7" placeholder="Your Message*" required></textarea>
-          <small></small>
-        </p>
-      <p class="full-width">
-          <input type="submit" class="submit-btn" value="Submit" onclick="checkValidations()">
-          <button class="reset-btn" onclick="reset()">Reset</button>
-        </p>
-        <!-- <p class="full-width"> -->
-		
-          <!-- <a class="btn alime-btn btn-2 mt-30 wow fadeInUp" data-wow-delay="500ms" href="#">Submit</a> -->
-        <!-- </p> -->
-      </form>
-    </div>
-
-    <div class="contacts contact-wrapper">
-
-      <ul>
-        <li>For any kind of infomation you can contact us</li>
-        <span class="hightlight-contact-info">
-          <li class="email-info"><i class="fa fa-envelope" aria-hidden="true"></i><a href = "mailto: pybdurgatsab@gmail.com" style="color:red"> pybdurgatsab@gmail.com</a></li>
-		  <li class="email-info"><i class="fa fa-envelope" aria-hidden="true"></i><a href = "mailto: pybdurgatsab@gmail.com" style="color:red"> palliryubakbrinda@gmail.com</a></li>
-          <li><i class="fa fa-phone" aria-hidden="true"></i> <span class="highlight-text"><a href="tel:+919830787450">+91 98307 87450</a></span></li>
-          <li><i class="fa fa-phone" aria-hidden="true"></i> <span class="highlight-text"><a href="tel:+919830015338">+91 98300 15338</a></span></li>
-        
-		</span>
-      </ul>
-    </div>
-  </div>
-</div>
+<body>
+ <br><br>
+  <div class="section-heading text-center wow fadeInUp" data-wow-delay="100ms">
+                        <h2>Our Pre Puja Media Coverage  </h2>
+                    </div>
+  <div class="gallery-grid">
+    <a href="https://www.facebook.com/watch/?extid=WA-UNK-UNK-UNK-AN_GK0T-GK1C-GK2C&v=422002993323999" target="_blank"><figure class="gallery-frame">
+      <img class="gallery-img" src="img/bg-img/media1.jpg" alt="symbol image" title="symbol image">
+      <figcaption>খুঁটি পুজোয় নয়া উদ্যোগ</figcaption>
+    </figure></a>
+    <a href="https://www.youtube.com/watch?v=EGQWJig9z-8" target="_blank"><figure class="gallery-frame">
+      <img class="gallery-img" src="img/bg-img/media2.jpg" alt="symbol image" title="symbol image">
+      <figcaption>पल्लीर युवकबृंद की खूंटी पूजा</figcaption>
+    </figure></a>
+    <a href="https://www.etvbharat.com/bengali/west-bengal/city/kolkata/100-people-sign-on-eye-donation-commitment-during-a-khuti-puja-in-kolkata/wb20220807170325538538711" target="_blank"><figure class="gallery-frame">
+      <img class="gallery-img" src="img/bg-img/media3.jpg" alt="symbol image" title="symbol image">
+      <figcaption>Eye Donation Commitment: মহালয়ার আগে চক্ষুদান ! খুঁটিপুজোয় নজির গড়ল মধ্য কলকাতার পল্লি যুবক বৃন্দ</figcaption>
+    </figure></a>
+    <a href="https://www.youtube.com/watch?v=rv-XH9YAGK4" target="_blank"><figure class="gallery-frame">
+      <img class="gallery-img" src="img/bg-img/media4.jpg" alt="symbol image" title="symbol image">
+      <figcaption>Eye Donation News: পুজোর এত আগে চক্ষুদান!</figcaption>
+    </figure></a>
+    <a href="https://bengali.oneindia.com/news/kolkata/especial-bhog-made-before-puja-in-the-city/articlecontent-pf340446-171751.html" target="_blank"><figure class="gallery-frame">
+      <img class="gallery-img" src="img/bg-img/media5.jpg" alt="symbol image" title="symbol image">
+      <figcaption>পুজোর আগেই এসে হাজির ভোগ, রেকর্ড মাপের হাঁড়িতে তৈরি হল খিচুড়ি</figcaption>
+    </figure></a>
+    <a href="https://epaper.thestatesman.com/c/69990035" target="_blank"><figure class="gallery-frame">
+      <img class="gallery-img" src="img/bg-img/media6.jpg" alt="symbol image" title="symbol image">
+      <figcaption>City Pujas turn out in full strength to celebrate grand occation </figcaption>
+    </figure></a>
+    
+  </div><!-- end:gallery-grid -->
+</body>
 
 
 </body>
@@ -427,133 +296,11 @@ button:focus , .submit-btn:focus{
 
 </body>
 </html> 
-        <div class="container" >
-		<h3 class="wow fadeInUp" data-wow-delay="100ms">Advertisement Area </h3>
-		<img src="img/bg-img/adarea.jpg"  style="width:100%;">
-<br><br><br><br>
-		<h3 class="wow fadeInUp" data-wow-delay="100ms">Previous years Advertisement </h3>
-                        <div class="line wow fadeInUp" data-wow-delay="200ms"></div><br><br>
-            <div class="row">
-			
-
-                <!-- Single Blog Area -->
-                <div class="col-12 col-lg-6">
-                    <div class="single-post-area wow fadeInUpBig" data-wow-delay="100ms">
-                        <!-- Post Thumbnail -->
-                        <a href="#" class="post-thumbnail"><img src="img/bg-img/ad1.jpg" alt=""></a>
-                        <!-- Post Catagory -->
-                        
-                    </div>
-                </div>
-				<div class="col-12 col-lg-6">
-                    <div class="single-post-area wow fadeInUpBig" data-wow-delay="100ms">
-                        <!-- Post Thumbnail -->
-                        <a href="#" class="post-thumbnail"><img src="img/bg-img/ad2.jpg" alt=""></a>
-                        <!-- Post Catagory -->
-                        
-                    </div>
-                </div>
-
-                <!-- Single Blog Area -->
-                <div class="col-12 col-sm-6 col-lg-3">
-                    <div class="single-post-area wow fadeInUpBig" data-wow-delay="400ms">
-                        <!-- Post Thumbnail -->
-                        <a href="#" class="post-thumbnail"><img src="img/bg-img/ad6.jpg" alt=""></a>
-                        <!-- Post Catagory -->
-                       
-                    </div>
-                </div>
-				<div class="col-12 col-lg-6">
-                    <div class="single-post-area wow fadeInUpBig" data-wow-delay="100ms">
-                        <!-- Post Thumbnail -->
-                        <a href="#" class="post-thumbnail"><img src="img/bg-img/ad4.jpg" alt=""></a>
-                        <!-- Post Catagory -->
-                        
-                    </div>
-                </div>
-				 <div class="col-12 col-sm-6 col-lg-3">
-                    <div class="single-post-area wow fadeInUpBig" data-wow-delay="400ms">
-                        <!-- Post Thumbnail -->
-                        <a href="#" class="post-thumbnail"><img src="img/bg-img/ad8.jpg" alt=""></a>
-                        <!-- Post Catagory -->
-                       
-                    </div>
-                </div>
-
-                <div class="col-12 col-lg-6">
-                    <div class="single-post-area wow fadeInUpBig" data-wow-delay="100ms">
-                        <!-- Post Thumbnail -->
-                        <a href="#" class="post-thumbnail"><img src="img/bg-img/ad5.jpg" alt=""></a>
-                        <!-- Post Catagory -->
-                        
-                    </div>
-                </div>
-
-                <div class="col-12 col-lg-6">
-                    <div class="single-post-area wow fadeInUpBig" data-wow-delay="100ms">
-                        <!-- Post Thumbnail -->
-                        <a href="#" class="post-thumbnail"><img src="img/bg-img/ad3.jpg" alt=""></a>
-                        <!-- Post Catagory -->
-                        
-                    </div>
-                </div>
-
-               <div class="col-12 col-lg-6">
-                    <div class="single-post-area wow fadeInUpBig" data-wow-delay="100ms">
-                        <!-- Post Thumbnail -->
-                        <a href="#" class="post-thumbnail"><img src="img/bg-img/ad9.jpg" alt=""></a>
-                        <!-- Post Catagory -->
-                        
-                    </div>
-                </div>
-
-          
-               <div class="col-12 col-lg-6">
-                    <div class="single-post-area wow fadeInUpBig" data-wow-delay="100ms">
-                        <!-- Post Thumbnail -->
-                        <a href="#" class="post-thumbnail"><img src="img/bg-img/ad10.jpg" alt=""></a>
-                        <!-- Post Catagory -->
-                        
-                    </div>
-                </div>
-				<div class="col-12 col-lg-6">
-                    <div class="single-post-area wow fadeInUpBig" data-wow-delay="100ms">
-                        <!-- Post Thumbnail -->
-                        <a href="#" class="post-thumbnail"><img src="img/bg-img/ad11.jpg" alt=""></a>
-                        <!-- Post Catagory -->
-                        
-                    </div>
-                </div>
-				<div class="col-12 col-lg-6">
-                    <div class="single-post-area wow fadeInUpBig" data-wow-delay="100ms">
-                        <!-- Post Thumbnail -->
-                        <a href="#" class="post-thumbnail"><img src="img/bg-img/ad12.jpg" alt=""></a>
-                        <!-- Post Catagory -->
-                        
-                    </div>
-                </div>
-				<div class="col-12 col-lg-6">
-                    <div class="single-post-area wow fadeInUpBig" data-wow-delay="100ms">
-                        <!-- Post Thumbnail -->
-                        <a href="#" class="post-thumbnail"><img src="img/bg-img/ad13.jpg" alt=""></a>
-                        <!-- Post Catagory -->
-                        
-                    </div>
-                </div>
-
-                <!-- Single Blog Area -->
-               
-
-                <!-- Single Blog Area -->
-               
-                <!-- Single Blog Area -->
-                
-
-            </div>
-        </div>
+        
     </div>
     
     <!-- Map Area End -->
+	
 
     <!-- Follow Area Start -->
    	<section class="our-team-area section-padding-80-50" style="background-image: url('img/bg-img/img21.jpg');">
